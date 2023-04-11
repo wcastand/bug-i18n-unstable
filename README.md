@@ -1,15 +1,13 @@
-# Expo Router Example
+# Bug with i18n and unstable_settings
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+if you launch the app:
 
-## 🚀 How to use
-
-```sh
-npx create-react-native-app -t with-router
+```
+yarn 
+npx expo start
 ```
 
-## 📝 Notes
+you can see the app load but if you make a change to the en.json or fr.json the app will fully reload
+it doesn't show the splashscreen tho.
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+if you comment the `unstable_settings` it won't full reload and make a fast refresh like normal.
