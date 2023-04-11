@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "splash": {
+      "backgroundColor": "#AA3366"
+    },
+    "name": "bug-i18n-unstable",
+    "slug": "bug-i18n-unstable"
+  }
+}
